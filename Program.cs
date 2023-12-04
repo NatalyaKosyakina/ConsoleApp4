@@ -40,7 +40,7 @@
             {1, 1, 1, 0, 1, 1, 1 }
             };
 
-            int count = Labirint.HasExit1(3, 1, labirynth1);
+            int count = Labirint.HasExit2(3, 1, labirynth1);
             Console.WriteLine("Количество выходов: " + count);
 
             count = Labirint.HasExit2(3, 1, labirynth2);
