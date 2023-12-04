@@ -9,7 +9,7 @@ namespace ConsoleApp4
 {
     internal class Labirint
     {
-    public static int FindPath(int i, int j, int[,] labirynth1)
+    public static int HasExit(int i, int j, int[,] labirynth1)
     {
         Stack<Tuple<int, int>> _path = new Stack<Tuple<int, int>>();
         Console.WriteLine(labirynth1[i, j]);
@@ -48,7 +48,7 @@ namespace ConsoleApp4
         return count;
         }
 
-        public static int FindPath2(int i, int j, int[,] labirynth1)
+        public static int HasExit2(int i, int j, int[,] labirynth1)
         {
             Stack<Tuple<int, int>> _path = new Stack<Tuple<int, int>>();
             Console.WriteLine(labirynth1[i, j]);
